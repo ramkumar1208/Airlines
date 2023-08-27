@@ -135,31 +135,7 @@ td {
 
           </style>
           
-          <form action=book1.php method=post>
-          
-            <caption>' . $row['f_id'] . '</caption>
-            <tr>
-                <th>From : ' . $row['from_place'] . '</th>
-                <th>Travel Time : </th>
-                <th>To : ' . $row['to_place'] . '</th>
-                <th>Amount : </th>
-                <th>Departure Date</th>
-                <th>ReTurn Flight Date</th>
-                <th>Book Now</th>
-            </tr>        
-            <tr>
-                <td>' . $row['departure'] . '</td>
-                <td>' . $row['time'] . '</td>
-                <td>' . $row['arrival'] . '</td>
-                <td>' . $row['amount'] . ' </td>
-                <td>'.$row['date'].'</td>
-                <td>'.$row['ret_date'].'</td>
-                <td>
-                <button class="book_now" name="book" value='.$i.' id='.$i.'>Book</button>
-                </td> 
-            </tr>
-            </table>';
-        </form>
+       
         </body>
         </html>'; 
  <html>
@@ -207,30 +183,3 @@ td {
 
           </style>
           
-          <form action=book1.php method=post>
-         <table>
-          
-            <caption>' . $row['f_id'] . '</caption>
-            <tr>
-                <th>From : ' . $row['from_place'] . '</th>
-                <th>Travel Time : </th>
-                <th>To : ' . $row['to_place'] . '</th>
-                <th>Amount : </th>
-                <th>Departure Date</th>
-                <th>Book NOw</th>
-            </tr>        
-            <tr>
-                <td>' . $row['departure'] . '</td>
-                <td>' . $row['time'] . '</td>
-                <td>' . $row['arrival'] . '</td>
-                <td>' . $row['amount'] . ' </td>
-                <td>'.$row['date'].'</td>
-                <td>
-                <button class="book_now" name="book" value='.$i.' id='.$i.'>Book</button>
-                </td> 
-            </tr>
-          </table>
-        
-      </form>
-        </body>
-        </html>
